@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input id="a" type="text" />+<input id="b" type="text" />
+        <P><button onclick="sum()">+</button></P>
+        <output id="c"></output>
+        <br>
+
+        <button onclick="minus()">-</button>
+        <output id="c"></output>
+        <br>
+
+        <button onclick="mutiple()">*</button>
+        <output id="c"></output>
+        <br>
+
+        <button onclick="divide()">/</button>
+        <output id="c"></output>
+        
+        
+    <script>
+        function sum(){
+            var a = parseInt(document.getElementById('a').value);
+            var b = parseInt(document.getElementById('b').value);
+            document.getElementById('c').value = a+b
+        }
+        function minus(a,b){
+            var a = parseInt(document.getElementById('a').value);
+            var b = parseInt(document.getElementById('b').value);
+            document.getElementById('c').value = a-b
+        }
+        function mutiple(a,b){
+            var a = parseInt(document.getElementById('a').value);
+            var b = parseInt(document.getElementById('b').value);
+            document.getElementById('c').value = a*b
+        }
+        function divide(a,b){
+            var a = parseInt(document.getElementById('a').value);
+            var b = parseInt(document.getElementById('b').value);
+            document.getElementById('c').value = a/b
+        }
+
+    </script>
+    </body>
+</html>
