@@ -1,2 +1,2 @@
-# bhgcfykbh.dithub.io
+# bhgcfykbh.github.io
 bhgcfykbh website
